@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ask the user for comments
-read -p 'Comments: ' comments
+read -p 'Comments of Submission: ' comments
 
 echo $comments
 # show the working tree status
