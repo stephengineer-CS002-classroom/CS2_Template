@@ -3,8 +3,9 @@
 # ask the user for comments
 read -p 'Comments: ' comments
 
+echo $comments
 # show the working tree status
-# git status
+git status
 
 # to see differences
 # git diff
@@ -13,7 +14,7 @@ read -p 'Comments: ' comments
 git add .
 
 # record changes to the repository
-git commit -m $comments
+git commit -m "$comments"
 
 # update code to remote repo
 git push origin master
