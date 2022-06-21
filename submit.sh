@@ -4,7 +4,7 @@
 read -p 'Comments: ' comments
 
 # show the working tree status
-git status
+# git status
 
 # to see differences
 # git diff
