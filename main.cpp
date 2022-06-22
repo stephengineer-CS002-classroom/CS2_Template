@@ -20,22 +20,22 @@ void basic_test(bool debug=false);
 
 int main()
 {
-  cout << "\n" << endl;
+    cout << "\n" << endl;
 
-  const bool debug = false;
-  
-  basic_test(debug);
+    const bool debug = false;
 
-  cout << "\n\n=====================" << endl;
-  return 0;
+    basic_test(debug);
+
+    cout << "\n\n=====================" << endl;
+    return 0;
 }
 
 
 void basic_test(bool debug)
 {
-  if (stub()) {
-    cout << "Passed!" << endl;
-  } else {
-    cout << "Failed!" << endl;
-  }
+    if (stub()) {
+        cout << "Passed!" << endl;
+    } else {
+        cout << "Failed!" << endl;
+    }
 }
