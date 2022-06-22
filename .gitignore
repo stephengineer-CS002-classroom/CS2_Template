@@ -82,3 +82,6 @@ googletest/
 .vs
 out/
 build/other/
+
+# Github Classroom
+.github
